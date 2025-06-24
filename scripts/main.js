@@ -245,7 +245,6 @@ class PetStore {
 // 🧲 Événements
 // ==============================
 
-
 const today = new Date();
 
 // Création de l'animalerie
@@ -260,7 +259,6 @@ AnimalsParadise.addAnimalToAnimalsList(new Dog(`Bella`, 20, `female`, 4, today, 
 AnimalsParadise.addAnimalToAnimalsList(new Dog(`Thor`, 40, `male`, 6, today, `gray`, true, `Husky`));
 AnimalsParadise.addAnimalToAnimalsList(new Dog(`Luna`, 18, `female`, 2, today, `white`, false, `Shih Tzu`));
 AnimalsParadise.addAnimalToAnimalsList(new Dog(`Rocky`, 25, `male`, 5, today, `brown`, true, `Boxer`));
-
 
 AnimalsParadise.addAnimalToAnimalsList(new Cat(`Georges`, 3, `male`, 10, today, `evil`, `long`, `long`));
 AnimalsParadise.addAnimalToAnimalsList(new Cat(`Maïa`, 2, `female`, 6, today, `friendly`, `short`, `short`));
@@ -277,7 +275,6 @@ AnimalsParadise.addAnimalToAnimalsList(new Bird(`Perla`, 0.3, `female`, 2, today
 AnimalsParadise.addAnimalToAnimalsList(new Bird(`Zazu`, 0.5, `male`, 4, today, `multicolor`, `cage`));
 
 console.log(AnimalsParadise.animalsList);
-
 
 // Test 1 day
 nexDayButton.addEventListener(`click`, (e) => {
